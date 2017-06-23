@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  postman_identity_server_4_aspnetcore:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
